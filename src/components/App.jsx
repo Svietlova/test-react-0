@@ -1,3 +1,5 @@
+import Description from "./Description";
+
 function App() {
   const title = "My Minion Ed";
   const imgUrl =
@@ -6,7 +8,7 @@ function App() {
   return (
     <>
       <h1>{title}</h1>
-      <img src={imgUrl} alt="" width="360" />
+      <img src={imgUrl} alt="minion Ed" width="360" />
       <input type="text" />
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
@@ -14,6 +16,8 @@ function App() {
         cupiditate facere harum aperiam, rem, unde dolorem quo aliquid earum
         illum reprehenderit. Aut, reiciendis.
       </p>
+      <h3>Description of Ed:</h3>
+      <Description />
     </>
   );
 }
